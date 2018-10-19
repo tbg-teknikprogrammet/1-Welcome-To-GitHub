@@ -1,0 +1,31 @@
+@charset 'utf-8';
+
+body {
+    background-color: #eee;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    
+    border-top: 10px solid cornflowerblue;
+    border-bottom: 10px solid orange;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    
+    border-bottom: 10px solid orange;
+    margin-bottom: 50px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+section img {
+    max-width: 100vw;
+    height:auto;
+    width:auto;
+    max-height:100vh;
+}
